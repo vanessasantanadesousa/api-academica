@@ -1,0 +1,35 @@
+api-academica/
+├── src/
+│   ├── api/
+│   │   └── base44Client.js
+│   ├── components/
+│   │   ├── CodeBlock.jsx
+│   │   ├── EndpointCard.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   ├── ScrollToTop.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── UserNotRegisteredError.jsx
+│   │   └── ui/ (pasta com shadcn - padrão, não vou colar)
+│   ├── entities/
+│   │   ├── Aluno.json
+│   │   ├── Disciplina.json
+│   │   ├── EmailLog.json
+│   │   └── Nota.json
+│   ├── lib/
+│   │   ├── app-params.js
+│   │   ├── AuthContext.jsx
+│   │   ├── PageNotFound.jsx
+│   │   ├── query-client.js
+│   │   └── utils.js
+│   ├── pages/
+│   │   ├── AdminDashboard.jsx
+│   │   └── ApiDocs.jsx
+│   ├── utils/
+│   │   └── index.ts
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
